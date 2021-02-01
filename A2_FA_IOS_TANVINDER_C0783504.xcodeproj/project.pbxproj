@@ -14,6 +14,9 @@
 		B7B5922625C89FA900059410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B5922425C89FA900059410 /* LaunchScreen.storyboard */; };
 		B7B5923225C8A05B00059410 /* A2_FA_IOS_TANVINDER_C0783504.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B7B5923025C8A05B00059410 /* A2_FA_IOS_TANVINDER_C0783504.xcdatamodeld */; };
 		B7B5923525C8A0E700059410 /* LandingProductScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5923425C8A0E600059410 /* LandingProductScreen.swift */; };
+		B7B5923B25C8A3B800059410 /* AddProviderScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5923825C8A3B800059410 /* AddProviderScreen.swift */; };
+		B7B5923C25C8A3B800059410 /* AddProductsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5923925C8A3B800059410 /* AddProductsScreen.swift */; };
+		B7B5923D25C8A3B800059410 /* GetProductsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B5923A25C8A3B800059410 /* GetProductsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		B7B5922725C89FA900059410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7B5923125C8A05B00059410 /* ProductsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProductsModel.xcdatamodel; sourceTree = "<group>"; };
 		B7B5923425C8A0E600059410 /* LandingProductScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingProductScreen.swift; sourceTree = "<group>"; };
+		B7B5923825C8A3B800059410 /* AddProviderScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProviderScreen.swift; sourceTree = "<group>"; };
+		B7B5923925C8A3B800059410 /* AddProductsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddProductsScreen.swift; sourceTree = "<group>"; };
+		B7B5923A25C8A3B800059410 /* GetProductsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetProductsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,9 @@
 				B7B5921625C89F9E00059410 /* AppDelegate.swift */,
 				B7B5921825C89F9E00059410 /* SceneDelegate.swift */,
 				B7B5923425C8A0E600059410 /* LandingProductScreen.swift */,
+				B7B5923A25C8A3B800059410 /* GetProductsScreen.swift */,
+				B7B5923925C8A3B800059410 /* AddProductsScreen.swift */,
+				B7B5923825C8A3B800059410 /* AddProviderScreen.swift */,
 				B7B5921C25C89F9E00059410 /* Main.storyboard */,
 				B7B5922225C89FA900059410 /* Assets.xcassets */,
 				B7B5922425C89FA900059410 /* LaunchScreen.storyboard */,
@@ -140,9 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7B5923D25C8A3B800059410 /* GetProductsScreen.swift in Sources */,
 				B7B5923225C8A05B00059410 /* A2_FA_IOS_TANVINDER_C0783504.xcdatamodeld in Sources */,
+				B7B5923B25C8A3B800059410 /* AddProviderScreen.swift in Sources */,
 				B7B5923525C8A0E700059410 /* LandingProductScreen.swift in Sources */,
 				B7B5921725C89F9E00059410 /* AppDelegate.swift in Sources */,
+				B7B5923C25C8A3B800059410 /* AddProductsScreen.swift in Sources */,
 				B7B5921925C89F9E00059410 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
